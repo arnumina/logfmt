@@ -20,7 +20,7 @@ import (
 
 func main() {
 	buf := bytes.Buffer{}
-	id := logfmt.Encode(&buf, "year", 2020, "month", "July", "Tuesday", true)
+	logfmt.Encode(&buf, "year", 2020, "month", "July", "Tuesday", true)
 
 	fmt.Println(buf.String())
 }
