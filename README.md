@@ -4,7 +4,7 @@
 
 # logfmt
 
-This module allows to encode a list of key/value pairs in the format **logfmt**.
+This module allows to encode a list of key/value pairs in **logfmt** format.
 
 ## Example
 
